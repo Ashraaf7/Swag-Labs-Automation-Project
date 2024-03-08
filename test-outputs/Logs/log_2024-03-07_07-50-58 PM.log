@@ -1,0 +1,19 @@
+[INFO] 07-03-2024 19:50:59 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:29)] - Edge driver is opened
+[INFO] 07-03-2024 19:51:00 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:31)] - Page is redirected to the URL
+[ERROR] 07-03-2024 19:51:12 [main] [Utilities.Utility.takeFullScreenshot(Utility.java:86)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: MicrosoftEdge=122.0.2365.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [85bbdd2b9121195b6aabdbedf17603cf, findElement {using=class name, value=shopping_cart_badge}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50790}, msedge: {msedgedriverVersion: 122.0.2365.66 (ab363614b8f0..., userDataDir: C:\Users\ahmed\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50790/devtoo..., se:cdpVersion: 122.0.2365.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85bbdd2b9121195b6aabdbedf17603cf
+[INFO] 07-03-2024 19:51:12 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case addingRandomProductsToCartTC started
+[INFO] 07-03-2024 19:51:14 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:62)] - randomNumber 2
+[INFO] 07-03-2024 19:51:14 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:62)] - randomNumber 3
+[INFO] 07-03-2024 19:51:15 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:62)] - randomNumber 6
+[INFO] 07-03-2024 19:51:15 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:40)] - number of products on cart: 3
+[INFO] 07-03-2024 19:51:15 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:51)] - selected products: 3
+[INFO] 07-03-2024 19:51:20 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case addingRandomProductsToCartTC passed
+[ERROR] 07-03-2024 19:51:22 [main] [Utilities.Utility.takeFullScreenshot(Utility.java:86)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null

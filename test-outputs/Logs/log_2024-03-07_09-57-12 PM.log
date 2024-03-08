@@ -1,0 +1,7 @@
+[INFO] 07-03-2024 21:57:12 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:33)] - Edge driver is opened
+[INFO] 07-03-2024 21:57:15 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:35)] - Page is redirected to the URL
+[INFO] 07-03-2024 21:57:15 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case checkoutStepTwoTC started
+[INFO] 07-03-2024 21:57:17 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 3
+[INFO] 07-03-2024 21:57:17 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 6
+[INFO] 07-03-2024 21:57:19 [main] [Tests.TC05_OverviewTest.checkoutStepTwoTC(TC05_OverviewTest.java:55)] - fTest-2024-03-07-09-57-04PM lTest-2024-03-07-09-57-04PM 10711
+[INFO] 07-03-2024 21:57:20 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - Test Case checkoutStepTwoTC failed

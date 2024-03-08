@@ -1,0 +1,6 @@
+[INFO] 07-03-2024 21:39:20 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:36)] - Edge driver is opened
+[INFO] 07-03-2024 21:39:22 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:38)] - Page is redirected to the URL
+[INFO] 07-03-2024 21:39:22 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case checkoutStepOneTC started
+[INFO] 07-03-2024 21:39:23 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 1
+[INFO] 07-03-2024 21:39:24 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 4
+[INFO] 07-03-2024 21:39:25 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case checkoutStepOneTC passed

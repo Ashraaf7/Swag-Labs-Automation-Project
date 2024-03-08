@@ -1,0 +1,22 @@
+[INFO] 07-03-2024 22:56:00 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - Edge driver is opened
+[INFO] 07-03-2024 22:56:02 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:32)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:56:10 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:46)] - Edge driver is opened
+[INFO] 07-03-2024 22:56:11 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:48)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:56:12 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case addingRandomProductsToCartTC started
+[INFO] 07-03-2024 22:56:12 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 2
+[INFO] 07-03-2024 22:56:13 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 3
+[INFO] 07-03-2024 22:56:13 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 4
+[INFO] 07-03-2024 22:56:13 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:43)] - number of products on cart: 3
+[INFO] 07-03-2024 22:56:13 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:54)] - selected products: 3
+[INFO] 07-03-2024 22:56:13 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case addingRandomProductsToCartTC passed
+[INFO] 07-03-2024 22:56:18 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:46)] - Edge driver is opened
+[INFO] 07-03-2024 22:56:19 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:48)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:56:20 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case checkingNumberOfSelectedProductsTC started
+[INFO] 07-03-2024 22:56:21 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:33)] - number of all products: 6
+[INFO] 07-03-2024 22:56:22 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:43)] - number of products on cart: 6
+[INFO] 07-03-2024 22:56:22 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:54)] - selected products: 6
+[INFO] 07-03-2024 22:56:22 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case checkingNumberOfSelectedProductsTC passed
+[INFO] 07-03-2024 22:56:27 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:46)] - Edge driver is opened
+[INFO] 07-03-2024 22:56:28 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:48)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:56:30 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnCartIcon started
+[INFO] 07-03-2024 22:56:30 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case clickOnCartIcon passed

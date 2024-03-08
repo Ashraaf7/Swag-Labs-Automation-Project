@@ -1,0 +1,3 @@
+[INFO] 03-03-2024 22:02:34 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:25)] - Edge driver is opened
+[INFO] 03-03-2024 22:02:36 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:27)] - Page is redirected to the URL
+[INFO] 03-03-2024 22:02:38 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:25)] - number of all products: 6

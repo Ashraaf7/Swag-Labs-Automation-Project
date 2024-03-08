@@ -1,0 +1,53 @@
+[INFO] 07-03-2024 22:18:40 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:29)] - Edge driver is opened
+[INFO] 07-03-2024 22:18:41 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:31)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:18:42 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case validLoginTC started
+[INFO] 07-03-2024 22:18:44 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case validLoginTC passed
+[INFO] 07-03-2024 22:18:51 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - Edge driver is opened
+[INFO] 07-03-2024 22:18:52 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:18:52 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case addingRandomProductsToCartTC started
+[INFO] 07-03-2024 22:18:53 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 1
+[INFO] 07-03-2024 22:18:53 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 4
+[INFO] 07-03-2024 22:18:53 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 6
+[INFO] 07-03-2024 22:18:54 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:43)] - number of products on cart: 3
+[INFO] 07-03-2024 22:18:54 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:54)] - selected products: 3
+[INFO] 07-03-2024 22:18:54 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case addingRandomProductsToCartTC passed
+[INFO] 07-03-2024 22:18:58 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - Edge driver is opened
+[INFO] 07-03-2024 22:18:59 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:18:59 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case checkingNumberOfSelectedProductsTC started
+[INFO] 07-03-2024 22:19:00 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:33)] - number of all products: 6
+[INFO] 07-03-2024 22:19:02 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:43)] - number of products on cart: 6
+[INFO] 07-03-2024 22:19:02 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:54)] - selected products: 6
+[INFO] 07-03-2024 22:19:02 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - Test Case checkingNumberOfSelectedProductsTC failed
+[INFO] 07-03-2024 22:19:08 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - Edge driver is opened
+[INFO] 07-03-2024 22:19:09 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:19:09 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnCartIcon started
+[INFO] 07-03-2024 22:19:10 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case clickOnCartIcon passed
+[INFO] 07-03-2024 22:19:15 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:30)] - Edge driver is opened
+[INFO] 07-03-2024 22:19:16 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:32)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:19:16 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case comparingPricesTC started
+[INFO] 07-03-2024 22:19:17 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 1
+[INFO] 07-03-2024 22:19:18 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 5
+[INFO] 07-03-2024 22:19:18 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:90)] - Total Price 37.98
+[INFO] 07-03-2024 22:19:18 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:31)] - Total Price 37.98
+[INFO] 07-03-2024 22:19:18 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case comparingPricesTC passed
+[INFO] 07-03-2024 22:19:24 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:36)] - Edge driver is opened
+[INFO] 07-03-2024 22:19:25 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:38)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:19:25 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case checkoutStepOneTC started
+[INFO] 07-03-2024 22:19:26 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 2
+[INFO] 07-03-2024 22:19:26 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 4
+[INFO] 07-03-2024 22:19:27 [main] [Tests.TC04_CheckoutTest.checkoutStepOneTC(TC04_CheckoutTest.java:58)] - fTest-2024-03-07-10-18-30PM lTest-2024-03-07-10-18-30PM 66774
+[INFO] 07-03-2024 22:19:27 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case checkoutStepOneTC passed
+[INFO] 07-03-2024 22:19:33 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:33)] - Edge driver is opened
+[INFO] 07-03-2024 22:19:34 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:35)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:19:34 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case checkoutStepTwoTC started
+[INFO] 07-03-2024 22:19:35 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:33)] - number of all products: 6
+[INFO] 07-03-2024 22:19:38 [main] [Tests.TC05_OverviewTest.checkoutStepTwoTC(TC05_OverviewTest.java:55)] - fTest-2024-03-07-10-18-30PM lTest-2024-03-07-10-18-30PM 80463
+[INFO] 07-03-2024 22:19:38 [main] [Pages.P05_OverviewPage.calculateTotalPrice(P05_OverviewPage.java:34)] - Calculated Total Price: 140.34
+[INFO] 07-03-2024 22:19:38 [main] [Pages.P05_OverviewPage.getTotal(P05_OverviewPage.java:29)] - Actual Total Price: 140.34
+[INFO] 07-03-2024 22:19:38 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case checkoutStepTwoTC passed
+[INFO] 07-03-2024 22:19:43 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:33)] - Edge driver is opened
+[INFO] 07-03-2024 22:19:44 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:35)] - Page is redirected to the URL
+[INFO] 07-03-2024 22:19:44 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case finishOrderTC started
+[INFO] 07-03-2024 22:19:45 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:33)] - number of all products: 6
+[INFO] 07-03-2024 22:19:47 [main] [Tests.TC06_FinishingOrderTest.finishOrderTC(TC06_FinishingOrderTest.java:55)] - fTest-2024-03-07-10-18-30PM lTest-2024-03-07-10-18-30PM 60042
+[INFO] 07-03-2024 22:19:48 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case finishOrderTC passed

@@ -1,0 +1,23 @@
+[INFO] 07-03-2024 20:05:59 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:29)] - Edge driver is opened
+[INFO] 07-03-2024 20:06:00 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:31)] - Page is redirected to the URL
+[ERROR] 07-03-2024 20:06:12 [main] [Utilities.Utility.takeFullScreenshot(Utility.java:86)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: MicrosoftEdge=122.0.2365.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [90546fd66426a7d44cfd1a3b6484c2d7, findElement {using=class name, value=shopping_cart_badge}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50402}, msedge: {msedgedriverVersion: 122.0.2365.66 (ab363614b8f0..., userDataDir: C:\Users\ahmed\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50402/devtoo..., se:cdpVersion: 122.0.2365.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90546fd66426a7d44cfd1a3b6484c2d7
+[INFO] 07-03-2024 20:06:12 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnCartIcon started
+[ERROR] 07-03-2024 20:06:25 [main] [Utilities.Utility.takeFullScreenshot(Utility.java:86)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: MicrosoftEdge=122.0.2365.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [90546fd66426a7d44cfd1a3b6484c2d7, findElement {using=class name, value=shopping_cart_badge}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50402}, msedge: {msedgedriverVersion: 122.0.2365.66 (ab363614b8f0..., userDataDir: C:\Users\ahmed\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50402/devtoo..., se:cdpVersion: 122.0.2365.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90546fd66426a7d44cfd1a3b6484c2d7
+[INFO] 07-03-2024 20:06:25 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case clickOnCartIcon passed
+[ERROR] 07-03-2024 20:06:26 [main] [Utilities.Utility.takeFullScreenshot(Utility.java:86)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
