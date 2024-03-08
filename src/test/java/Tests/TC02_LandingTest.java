@@ -24,7 +24,7 @@ public class TC02_LandingTest {
     private final String PASSWORD = DataUtils.getJsonData("validLogin", "password");
     private Set<Cookie> cookies;
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void login() throws IOException {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : getPropertyValue("environment", "Browser");
         LogsUtils.info(System.getProperty("browser"));
@@ -42,7 +42,7 @@ public class TC02_LandingTest {
         quitDriver();
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup() throws IOException {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : getPropertyValue("environment", "Browser");
         LogsUtils.info(System.getProperty("browser"));
@@ -73,13 +73,13 @@ public class TC02_LandingTest {
         Assert.assertTrue(VerifyURL(getDriver(), DataUtils.getPropertyValue("environment", "CART_URL")));
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void quit() {
         quitDriver();
     }
 
 
-    @AfterClass
+    @AfterClass(alwaysRun = true)
     public void deleteSession() {
         cookies.clear();
     }
