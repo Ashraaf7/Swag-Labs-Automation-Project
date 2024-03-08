@@ -24,7 +24,7 @@ public class TC03_CartTest {
     private final String USERNAME = DataUtils.getJsonData("validLogin", "username");
     private final String PASSWORD = DataUtils.getJsonData("validLogin", "password");
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup() throws IOException {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : getPropertyValue("environment", "Browser");
         LogsUtils.info(System.getProperty("browser"));
@@ -49,7 +49,7 @@ public class TC03_CartTest {
     }
 
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void quit() {
         quitDriver();
     }
