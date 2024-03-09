@@ -10,10 +10,10 @@ public class ITestResultListenerClass implements ITestListener {
     }
 
     public void onTestSuccess(ITestResult result) {
-        LogsUtils.info("Test Case " + result.getName() + " passed");
+
     }
+
     public void onTestSkipped(ITestResult result) {
-        LogsUtils.info("Test Case " + result.getName() + " skipped");
     }
 
 

@@ -22,16 +22,25 @@ public class IInvokedMethodListenerClass implements IInvokedMethodListener {
 
     public void afterInvocation(IInvokedMethod method, ITestResult testResult, ITestContext context) {
         //Utility.takeFullScreenshot(getDriver(), new P02_LandingPage(getDriver()).getNumberOfSelectedProductsOnCart());
-        File logFile = Utility.getLatestFile(LogsUtils.LOGS_PATH);
+        switch (testResult.getStatus()) {
+            case ITestResult.FAILURE:
+                LogsUtils.info("Test Case " + testResult.getName() + " failed");
+                Utility.takeScreenShot(getDriver(), testResult.getName()); //validLoginTC-2024-03-03-8-17pm
+                break;
+            case ITestResult.SUCCESS:
+                LogsUtils.info("Test Case " + result.getName() + " passed");
+                break;
+            case ITestResult.SKIP:
+                LogsUtils.info("Test Case " + result.getName() + " skipped");
+                break;
+        }
         try {
+            File logFile = Utility.getLatestFile(LogsUtils.LOGS_PATH);
             assert logFile != null;
             Allure.addAttachment("logs.log", Files.readString(Path.of(logFile.getPath())));
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            LogsUtils.error(e.getMessage());
         }
-        if (testResult.getStatus() == ITestResult.FAILURE) {
-            LogsUtils.info("Test Case " + testResult.getName() + " failed");
-            Utility.takeScreenShot(getDriver(), testResult.getName()); //validLoginTC-2024-03-03-8-17pm
-        }
+
     }
 }

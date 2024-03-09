@@ -29,7 +29,7 @@ public class TC01_LoginTest {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : getPropertyValue("environment", "Browser");
         LogsUtils.info(System.getProperty("browser"));
         setupDriver(browser);
-        LogsUtils.info("Edge driver is opened");
+        LogsUtils.info(browser + " driver is opened");
         getDriver().get(getPropertyValue("environment", "BASE_URL"));
         LogsUtils.info("Page is redirected to the URL");
         getDriver().manage().timeouts()

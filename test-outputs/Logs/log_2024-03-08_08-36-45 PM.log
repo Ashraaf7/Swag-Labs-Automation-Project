@@ -1,0 +1,18 @@
+[INFO] 08-03-2024 20:36:45 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:30)] - chrome
+[INFO] 08-03-2024 20:36:51 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:32)] - Edge driver is opened
+[INFO] 08-03-2024 20:36:52 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:34)] - Page is redirected to the URL
+[INFO] 08-03-2024 20:36:53 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case validLoginTC started
+[INFO] 08-03-2024 20:36:54 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case validLoginTC failed
+[ERROR] 08-03-2024 20:36:54 [main] [Utilities.Utility.takeScreenShot(Utility.java:73)] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.111)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d97fef58135d048244e1ff4baa3af2b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.111, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\ahmed\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55005/devtoo..., se:cdpVersion: 122.0.6261.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d97fef58135d048244e1ff4baa3af2b
+[INFO] 08-03-2024 20:36:54 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - chrome
+[INFO] 08-03-2024 20:36:56 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:32)] - Edge driver is opened
+[INFO] 08-03-2024 20:36:58 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:34)] - Page is redirected to the URL
+[INFO] 08-03-2024 20:36:59 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:48)] - chrome

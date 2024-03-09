@@ -1,0 +1,8 @@
+Tests\TC02_LandingTest.class
+Tests\TC01_LoginTest.class
+Listeners\ITestResultListenerClass.class
+Tests\TC04_CheckoutTest.class
+Tests\TC05_OverviewTest.class
+Tests\TC03_CartTest.class
+Listeners\IInvokedMethodListenerClass.class
+Tests\TC06_FinishingOrderTest.class
