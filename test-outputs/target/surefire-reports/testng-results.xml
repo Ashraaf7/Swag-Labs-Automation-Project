@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-10T02:47:24 EET" name="Regression Suite" finished-at="2024-03-10T02:48:45 EET" duration-ms="81384">
+    <groups>
+    </groups>
+    <test started-at="2024-03-10T02:47:24 EET" name="Regression Test" finished-at="2024-03-10T02:48:45 EET" duration-ms="81384">
+      <class name="Tests.TC02_LandingTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:47:42 EET" name="login" finished-at="2024-03-10T02:47:50 EET" duration-ms="7726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:47:50 EET" name="setup" finished-at="2024-03-10T02:47:55 EET" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addingRandomProductsToCartTC()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:47:55 EET" name="addingRandomProductsToCartTC" finished-at="2024-03-10T02:47:56 EET" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingRandomProductsToCartTC -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:47:56 EET" name="quit" finished-at="2024-03-10T02:47:57 EET" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:47:57 EET" name="setup" finished-at="2024-03-10T02:48:03 EET" duration-ms="6041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkingNumberOfSelectedProductsTC()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:48:03 EET" name="checkingNumberOfSelectedProductsTC" finished-at="2024-03-10T02:48:04 EET" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingNumberOfSelectedProductsTC -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:48:04 EET" name="quit" finished-at="2024-03-10T02:48:05 EET" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:48:05 EET" name="setup" finished-at="2024-03-10T02:48:11 EET" duration-ms="6037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnCartIcon()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:48:11 EET" name="clickOnCartIcon" finished-at="2024-03-10T02:48:12 EET" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCartIcon -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:48:12 EET" name="quit" finished-at="2024-03-10T02:48:13 EET" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="deleteSession()[pri:0, instance:Tests.TC02_LandingTest@48c3205a]" started-at="2024-03-10T02:48:13 EET" name="deleteSession" finished-at="2024-03-10T02:48:13 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSession -->
+      </class> <!-- Tests.TC02_LandingTest -->
+      <class name="Tests.TC03_CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TC03_CartTest@121c54fa]" started-at="2024-03-10T02:48:13 EET" name="setup" finished-at="2024-03-10T02:48:17 EET" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="comparingPricesTC()[pri:0, instance:Tests.TC03_CartTest@121c54fa]" started-at="2024-03-10T02:48:17 EET" name="comparingPricesTC" finished-at="2024-03-10T02:48:19 EET" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparingPricesTC -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.TC03_CartTest@121c54fa]" started-at="2024-03-10T02:48:19 EET" name="quit" finished-at="2024-03-10T02:48:20 EET" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.TC03_CartTest -->
+      <class name="Tests.TC05_OverviewTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TC05_OverviewTest@604b1e1d]" started-at="2024-03-10T02:48:28 EET" name="setup" finished-at="2024-03-10T02:48:32 EET" duration-ms="4485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutStepTwoTC()[pri:0, instance:Tests.TC05_OverviewTest@604b1e1d]" started-at="2024-03-10T02:48:32 EET" name="checkoutStepTwoTC" finished-at="2024-03-10T02:48:35 EET" duration-ms="2175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutStepTwoTC -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.TC05_OverviewTest@604b1e1d]" started-at="2024-03-10T02:48:35 EET" name="quit" finished-at="2024-03-10T02:48:36 EET" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.TC05_OverviewTest -->
+      <class name="Tests.TC06_FinishingOrderTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TC06_FinishingOrderTest@62566842]" started-at="2024-03-10T02:48:36 EET" name="setup" finished-at="2024-03-10T02:48:40 EET" duration-ms="4492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="finishOrderTC()[pri:0, instance:Tests.TC06_FinishingOrderTest@62566842]" started-at="2024-03-10T02:48:41 EET" name="finishOrderTC" finished-at="2024-03-10T02:48:44 EET" duration-ms="3516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishOrderTC -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.TC06_FinishingOrderTest@62566842]" started-at="2024-03-10T02:48:44 EET" name="quit" finished-at="2024-03-10T02:48:45 EET" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.TC06_FinishingOrderTest -->
+      <class name="Tests.TC04_CheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TC04_CheckoutTest@1023150a]" started-at="2024-03-10T02:48:20 EET" name="setup" finished-at="2024-03-10T02:48:24 EET" duration-ms="4219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutStepOneTC()[pri:0, instance:Tests.TC04_CheckoutTest@1023150a]" started-at="2024-03-10T02:48:24 EET" name="checkoutStepOneTC" finished-at="2024-03-10T02:48:27 EET" duration-ms="2192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutStepOneTC -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.TC04_CheckoutTest@1023150a]" started-at="2024-03-10T02:48:27 EET" name="quit" finished-at="2024-03-10T02:48:28 EET" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.TC04_CheckoutTest -->
+      <class name="Tests.TC01_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TC01_LoginTest@2bac9ba]" started-at="2024-03-10T02:47:24 EET" name="setup" finished-at="2024-03-10T02:47:40 EET" duration-ms="15712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTC()[pri:0, instance:Tests.TC01_LoginTest@2bac9ba]" started-at="2024-03-10T02:47:40 EET" name="validLoginTC" finished-at="2024-03-10T02:47:41 EET" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTC -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.TC01_LoginTest@2bac9ba]" started-at="2024-03-10T02:47:41 EET" name="quit" finished-at="2024-03-10T02:47:42 EET" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.TC01_LoginTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

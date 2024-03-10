@@ -1,3 +1,0 @@
-[INFO] 08-03-2024 20:36:45 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:30)] - chrome
-[INFO] 08-03-2024 20:36:51 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:32)] - Edge driver is opened
-[INFO] 08-03-2024 20:36:52 [main] [Tests.TC01_LoginTest.setup(TC01_LoginTest.java:34)] - Page is redirected to the URL

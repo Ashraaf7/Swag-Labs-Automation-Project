@@ -28,10 +28,10 @@ public class IInvokedMethodListenerClass implements IInvokedMethodListener {
                 Utility.takeScreenShot(getDriver(), testResult.getName()); //validLoginTC-2024-03-03-8-17pm
                 break;
             case ITestResult.SUCCESS:
-                LogsUtils.info("Test Case " + result.getName() + " passed");
+                LogsUtils.info("Test Case " + testResult.getName() + " passed");
                 break;
             case ITestResult.SKIP:
-                LogsUtils.info("Test Case " + result.getName() + " skipped");
+                LogsUtils.info("Test Case " + testResult.getName() + " skipped");
                 break;
         }
         try {
